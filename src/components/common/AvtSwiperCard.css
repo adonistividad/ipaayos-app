@@ -1,0 +1,21 @@
+.avt-swiper-card {
+  position: absolute;
+  width:100%;
+  /* grid-area: 1 / 1; */
+  height: calc(100vh - 240px);
+  height: -webkit-calc(100vh - 240px);
+  overflow-y: scroll;
+  background: var(--ion-item-background);
+}
+
+.avt-swiper-card img,
+.avt-swiper-card {
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .avt-swiper-card {
+    height: calc(100vh - 130px);
+    height: -webkit-calc(100vh - 130px);
+  }
+}
