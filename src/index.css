@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/***************** open street map temp  */
+.leaflet-top.leaflet-right {
+  display: none;
+  background: #333;
+  color: white;
+  border: none;
+  scroll-behavior: auto;
+}
+.leaflet-bottom , .leaflet-control-container {
+  display: none;
+}
+:root {
+  --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+}
+
+/* 
+.map-tiles {filter: var(--map-tiles-filter, none);}
+
+@media (prefers-color-scheme: dark) {
+  .map-tiles {
+    filter: var(--map-tiles-filter, none);
+  }
+} */
