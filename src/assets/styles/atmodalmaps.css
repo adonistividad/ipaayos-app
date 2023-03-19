@@ -1,0 +1,29 @@
+/* :root { --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);}
+
+@media (prefers-color-scheme: dark) {
+  .map-tiles { filter:var(--map-tiles-filter, none); }
+} */
+
+.map-search,
+.button-container {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  /* max-width: 600px; */
+  /* background: rgba(255, 255, 255, 0.5) !important; */
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  padding:10px !important;
+}
+.map-submit {
+  /* margin: auto; */
+  width: 96%;
+}
+
+
+#background-content {
+ background: none;
+}
